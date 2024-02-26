@@ -1,7 +1,16 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+//componentes
+import { ListProductsComponent } from './components/list-products/list-products.component';
+import { AddEditProductComponent } from './components/add-edit-product/add-edit-product.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: ListProductsComponent},
+  {path: 'add', component: AddEditProductComponent},
+  {path: 'edit/:id', component: AddEditProductComponent},
+  //sempre por ultimo.
+  {path: '**', redirectTo: '', pathMatch: 'full'}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
