@@ -1,0 +1,14 @@
+.col-lg-6  button{
+  width: 130px;
+  border-radius: 10px;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+.col-lg-4.offset-lg-4 {
+  margin-top: 60px;
+}
+
+
+
+
