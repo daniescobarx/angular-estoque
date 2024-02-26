@@ -1,0 +1,9 @@
+.title{
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-primary{
+  border-radius: 14px;
+}
