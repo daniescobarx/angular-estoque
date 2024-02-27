@@ -21,4 +21,8 @@ export class AddEditProductComponent implements OnInit{
     ngOnInit(): void {
 
     }
+    addProduct(){
+      console.log("Produto adicionado")
+    }
 }
+
