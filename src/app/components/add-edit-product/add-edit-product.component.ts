@@ -26,3 +26,4 @@ export class AddEditProductComponent implements OnInit{
       console.log("produto adicionado")
     }
 }
+
