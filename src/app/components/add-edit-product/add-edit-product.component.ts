@@ -1,3 +1,4 @@
+import { Product } from './../../interfaces/product';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
@@ -23,7 +24,11 @@ export class AddEditProductComponent implements OnInit{
     }
 
     addProduct(){
-      console.log("produto adicionado")
+      //console.log("produto adicionado")
+      console.log(this.form)
+      // const Product: Product = {
+      //   name:
+      // }
     }
 }
 
